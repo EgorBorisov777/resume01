@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     font-weight: normal;
     color: #0f141e;
-    background: #f1f1f1;
+    background: #d4cccc;
 
 }
 
@@ -34,13 +34,13 @@ body {
 
 
 .card {
-    background: rgb(250, 186, 10);
+    background: rgb(250, 199, 60);
     border: 2px solid black;
     padding: 15px, 20px;
 }
 
 .card-2 {
-    background-color: rgb(236, 143, 224);
+    background-color: rgb(240, 191, 233);
     border-radius: 30px;
     padding-left: 20px;
     padding-bottom: 5px;
@@ -51,4 +51,15 @@ body {
     width: 500px;
     text-align: center;
     border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: all .3s;
+}
+
+a:hover {
+    color: purple;
+    font-size: 18px;
 }
