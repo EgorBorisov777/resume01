@@ -47,19 +47,45 @@ body {
 }
 
 .card-3 {
-    background: rgb(136, 136, 136);
-    width: 500px;
+    background: rgb(230, 218, 218);
+    /* width: 500px; */
     text-align: center;
-    border-radius: 10%;
+    border-radius: 30px;
+    margin-bottom: 20px;
 }
 
 a {
     text-decoration: none;
     color: #333;
-    transition: all .3s;
+    transition: all .1s;
 }
 
 a:hover {
     color: purple;
     font-size: 18px;
+}
+
+a:active {
+
+    color: red;
+
+}
+
+a:visited {
+    color: #faa340;
+}
+
+.btn1 {
+    padding: 20px, 10px;
+    background: #0f141e;
+    border-radius: 10px;
+    color: #fff;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn1:hover {
+    opacity: 0.8;
 }
