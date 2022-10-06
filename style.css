@@ -21,6 +21,10 @@ body {
     box-shadow: 4px 4px 14px rgba(19, 19, 17, 0.25);
 }
 
+.info-text {
+    display: flex
+}
+
 .info-text p {
     font-style: italic;
     font-weight: bold;
@@ -49,9 +53,12 @@ body {
 .card-3 {
     background: rgb(230, 218, 218);
     /* width: 500px; */
-    text-align: center;
     border-radius: 30px;
     margin-bottom: 20px;
+}
+
+.card-3 h3 {
+    text-align: center;
 }
 
 a {
@@ -76,7 +83,6 @@ a:visited {
 }
 
 .btn1 {
-    padding: 20px, 10px;
     background: #0f141e;
     border-radius: 10px;
     color: #fff;
@@ -88,4 +94,66 @@ a:visited {
 
 .btn1:hover {
     opacity: 0.8;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid #8f8f86;
+    padding-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.for-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.for-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50%-20px); */
+}
+
+.for-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
 }
