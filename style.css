@@ -22,8 +22,22 @@ body {
 }
 
 .info-text {
-    display: flex
+    margin-left: 40px;
 }
+
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 715px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
 
 .info-text p {
     font-style: italic;
@@ -32,9 +46,7 @@ body {
     margin: 0px;
 }
 
-.info {
-    margin-bottom: 20px;
-}
+
 
 
 .card {
@@ -137,6 +149,20 @@ a:visited {
 .for-row .form-group:last-child {
     margin-right: 0;
 }
+
+@media(max-width: 715px) {
+
+    .for-row {
+        display: block;
+    }
+
+    .for-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
 
 .form-group label {
     display: block;
