@@ -2,5 +2,5 @@
 
 ## Результат вы можете посмотреть тут
 
-<a href='http://127.0.0.1:5500/index.html'>Моя первая работа на HTML & CSS</a>  
+<a href='https://resume01-pq00qtfc5-egorborisov777.vercel.app'>Моя первая работа на HTML & CSS</a>  
 
